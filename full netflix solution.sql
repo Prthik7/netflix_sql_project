@@ -29,13 +29,13 @@ select
 from netflix
 
 --15 business problems
-1. Count the Number of Movies vs TV Shows
+-- Count the Number of Movies vs TV Shows
 select type,
 count(* )as total_content
 from netflix
 group by 1
 
-2.Find the Most Common Rating for Movies and TV Shows
+--Find the Most Common Rating for Movies and TV Shows
 select
  type,
  rating
